@@ -1,16 +1,101 @@
-# React + Vite
+ 🏨 Hostel Management System
+📌 Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Hostel Management System is a simple CRUD-based full-stack application.
+This project is developed to understand REST API development and frontend–backend integration.
 
-Currently, two official plugins are available:
+The UI is built using React.js, and the backend is developed using Spring Boot.
+The application performs basic CRUD operations using RESTful APIs.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Technologies Used
 
-## React Compiler
+Frontend
+React.js
+HTML
+CSS
+JavaScript
+Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend
+Java
+Spring Boot
+Spring Web (REST APIs)
+Spring Data JPA
+Hibernate
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-## Expanding the ESLint configuration
+| Method | API         | Description          |
+| ------ | ----------- | -------------------- |
+| POST   | Create API  | Add new record       |
+| GET    | Get API     | Fetch record by ID   |
+| GET    | Get All API | Fetch all records    |
+| DELETE | Delete API  | Delete record        |
+| PUT    | Update API  | *Will be added soon* |
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+⚙️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create hostel records
+View all records
+View record by ID
+Delete records
+React UI integrated with Spring Boot backend
+RESTful architecture
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+🔄 Frontend–Backend Integration
+React.js communicates with Spring Boot using REST APIs
+Axios is used for API calls
+Data is transferred in JSON format
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+📁 Project Structure
+Backend (Spring Boot)
+controller
+service
+repository
+entity
+dto
+Frontend (React.js)
+components
+pages
+services
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+🚀 How to Run the Project
+⚙️Backend
+
+1.Open backend project in IntelliJ / Eclipse
+2.Configure database in application.properties
+3.Run the Spring Boot application
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+⚛️Frontend
+
+1.Open frontend folder
+2.Install dependencies
+   npm install
+
+3.Start the application
+   npm start
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+📈 Future Enhancements
+
+1.Implement PUT (Update) API
+2.Improve UI design
+3.Add validation
+4.Add authentication
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+👨‍💻 Author
+
+Pratik D. Zagade
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+⭐ Note
+
+This project is created for learning purposes to understand:
+
+CRUD operations
+
+REST APIs
+
+React & Spring Boot integration
+
+Full Stack development
+___________________________________________________________________________________________________________________________________________________________________________________________________________________
